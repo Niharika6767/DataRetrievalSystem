@@ -1,0 +1,78 @@
+/* src/App.css */
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.section-box {
+  width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+
+}
+
+.section-box h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.section-box form {
+  margin-top: 20px;
+}
+
+.section-box label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.section-box input[type="text"],
+.section-box input[type="password"],
+.section-box select {
+  width: calc(100% - 20px); 
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.section-box button[type="submit"] {
+  background-color: #51133b;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.section-box button[type="submit"]:hover {
+  background-color: #50243f;
+}
+button[type="button"] {
+  background-color: #50243f; 
+  color: white;
+  padding: 14px 20px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%; 
+}
+
+button[type="button"]:hover {
+  background-color: #50243f; 
+}
